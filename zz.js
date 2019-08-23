@@ -7,7 +7,6 @@ class ZhongZhuiZhuanNiBoLan {
         this.codeData = []
     }
 
-
     start(){
         this.inputData.forEach((item,id)=>{
             if(item!=='+'&&item!=='-'&&item!=='*'&&item!=='/'&&item!=='('&&item!==')'&&item!=='#'){
